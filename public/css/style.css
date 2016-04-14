@@ -3,8 +3,8 @@
 ******************************/
 @import url(https://fonts.googleapis.com/css?family=Lato:300,100);
 
-body{
-  font-family: 'Lato', sans-serif;
+body {
+  font-family: "Lato", sans-serif;
   color: #747704;
   font-weight: 300;
 }
@@ -12,23 +12,23 @@ body{
 /******************************
              Text
 ******************************/
-.text-light{
-  color: #BCBBBB;
+.text-light {
+  color: #bcbbbb;
 }
 
-.text-thin{
+.text-thin {
   font-weight: 100;
 }
 
-.text-center{
+.text-center {
   text-align: center;
 }
 
-.text-lg{
+.text-lg {
   font-size: 60px;
 }
 
-.text-md{
+.text-md {
   font-size: 20px;
 }
 
@@ -45,7 +45,7 @@ body{
 /******************************
       Horizontal Line
 ******************************/
-.hr-lg{
+.hr-lg {
   height: 2px;
   background-color: #747704;
 }
@@ -53,21 +53,21 @@ body{
 /******************************
             Margins
 ******************************/
-.margin-top{
+.margin-top {
   margin-top: 5%;
 }
 
-.margin-bottom{
+.margin-bottom {
   margin-bottom: 2%;
 }
 
 /******************************
            Animations
 ******************************/
-.animation{
+.animation {
   transition: 1s all ease;
 }
 
-.animation:hover{
+.animation:hover {
   transform: scale(1.1);
 }
