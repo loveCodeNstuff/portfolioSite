@@ -1,0 +1,62 @@
+doctype html(lang='en')
+head
+    meta(charset='utf-8')     
+    title Richard C Felix   
+    meta(http-equiv='X-UA-Compatible', content='IE=Edge')    
+    meta(name='viewport', ,='', content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no')    
+    link(rel='stylesheet', href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css', integrity='sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7', crossorigin='anonymous')     
+    link(rel='stylesheet', href='css/style.css')
+    link(rel='icon' type='image/ico' href='img/favicon.ico')
+
+  body
+    section.container
+      // Header Start
+      .row
+        .col-md-6
+          img.img-responsive.margin-top(src='img/logo.png', alt='red box with a lowercase r and a period')       
+        .col-md-6.text-right.text-uppercase
+          h1.text-thin.text-lg Richard C Felix         
+          h4.text-md Full Stack Web Developer      
+        .row
+          .col-md-12
+            hr.hr-lg
+        // Header End ---------------------------
+        // Hero Start
+        .row
+          .col-md-12.margin-bottom
+            picture
+              source(media='(max-width: 465px)', srcset='img/hero-sm.jpg')           
+              source(media='(max-width: 650px)', srcset='img/hero-md.jpg')            
+              img.img-responsive(src='img/hero-lg.jpg', alt='Macbook Pro, iphone and sketchbook with pen on a table')
+        // Hero End ------------------------------
+        // Project Start
+        .row
+          .col-md-12
+            h2.text-light Featured Work    
+        .row
+          .col-md-4.col-xs-12.text-center
+            picture
+              source(media='(max-width: 465px)', srcset='img/coding-sm.jpg')            
+              source(media='(max-width: 650px)', srcset='img/coding-md.jpg')            
+              img.img-responsive.animation(src='img/coding-lg.jpg', alt='Macbook Pro with a pair of headphones on a table. Computer has sublime text editor open with code.')        
+            h3.text-uppercase Beats         
+            p.text-light https://www.beats.com
+            
+          .col-md-4.col-xs-12.text-center
+            picture
+              source(media='(max-width: 465px)', srcset='img/workspace-sm.jpg')         
+              source(media='(max-width: 650px)', srcset='img/workspace-md.jpg')
+              img.img-responsive.animation(src='img/workspace-lg.jpg', alt='Macbook Pro, skectch book and iphone on a table from the top view perspective.')     
+            h3.text-uppercase Workspace     
+            p.text-light https://workspace.com
+ 
+          .col-md-4.col-xs-12.text-center
+            picture
+              source(media='(max-width: 465px)', srcset='img/coffee-sm.jpg')      
+              source(media='(max-width: 650px)', srcset='img/coffee-md.jpg')
+              img.img-responsive.animation(src='img/coffee-lg.jpg', alt='Macbook Pro with a cup of coffee on a table.  Computer has a text editor with open with code.')   
+            h3.text-uppercase Coffee    
+            p.text-light https://www.coffee.com/is/awesome
+        // Project End ------------------------------
+
+    script(src='js/picturefullPollyfill.min.js')

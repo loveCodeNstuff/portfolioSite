@@ -1,0 +1,63 @@
+/******************************
+        General Scope
+******************************/
+@import url(https://fonts.googleapis.com/css?family=Lato:300,100);
+
+body{
+  font-family: 'Lato', sans-serif;
+  color: #747704;
+  font-weight: 300;
+}
+
+/******************************
+             Text
+******************************/
+.text-light{
+  color: #BCBBBB;
+}
+
+.text-thin{
+  font-weight: 100;
+}
+
+.text-center{
+  text-align: center;
+}
+
+.text-lg{
+  font-size: 60px;
+}
+
+.text-md{
+  font-size: 20px;
+}
+
+/******************************
+      Horizontal Line
+******************************/
+.hr-lg{
+  height: 2px;
+  background-color: #747704;
+}
+
+/******************************
+            Margins
+******************************/
+.margin-top{
+  margin-top: 5%;
+}
+
+.margin-bottom{
+  margin-bottom: 2%;
+}
+
+/******************************
+           Animations
+******************************/
+.animation{
+  transition: 1s all ease;
+}
+
+.animation:hover{
+  transform: scale(1.1);
+}
